@@ -12,7 +12,7 @@ It does **not** yet contain a production backend implementation of the voice pla
 
 ## Problem Statement
 
-Businesses lose high-intent leads and support quality when phone systems rely on static IVR menus, delayed callbacks, and disconnected systems. Loonlet aims to provide low-latency, context-aware, multilingual voice automation with strict security and operational controls.
+Businesses lose high-intent leads and support quality when phone systems rely on static IVR menus, delayed callbacks, and disconnected systems. Loonlet aims to provide low-latency, context-aware, conversational voice interactions for sales and support.
 
 ## Key Feature Goals
 
@@ -24,18 +24,18 @@ Businesses lose high-intent leads and support quality when phone systems rely on
 - Human handoff with context
 - Full observability, security hardening, and compliance controls
 
-Current implementation status of each goal is tracked in `docs/features.md`.
+Current implementation status of each goal is tracked in `features.md`.
 
 ## Documentation Index
 
-- Feature audit first: `docs/features.md`
-- Architecture and diagrams: `docs/architecture.md`
-- Open-source tech choices: `docs/tech-stack.md`
-- Setup and deployment patterns: `docs/setup.md`
-- Security and compliance baseline: `docs/security.md`
-- API and webhook specification: `docs/api-reference.md`
-- Testing and QA strategy: `docs/testing.md`
-- Gap-to-delivery roadmap: `docs/roadmap.md`
+- Feature audit first: `features.md`
+- Architecture and diagrams: `architecture.md`
+- Open-source tech choices: `tech-stack.md`
+- Setup and deployment patterns: `setup.md`
+- Security and compliance baseline: `security.md`
+- API and webhook specification: `api-reference.md`
+- Testing and QA strategy: `testing.md`
+- Gap-to-delivery roadmap: `roadmap.md`
 
 ## Quick Start
 
@@ -54,6 +54,4 @@ start src\loonlet-voice-ai.html
 - Partial evidence: local STT/LLM/TTS loop claims and FreeSWITCH setup in progress (ticket-level only).
 - Not implemented in code: telephony runtime, webhook/API services, integrations, dashboard product UI, RAG, and formal QA.
 
-See `docs/roadmap.md` for implementation-ready specifications and acceptance criteria.
-
-
+See `roadmap.md` for implementation-ready specifications and acceptance criteria.
